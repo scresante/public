@@ -1,5 +1,9 @@
 #!/usr/bin/python
-"""x """
+# This is a bandwidth graphing/monitoring utility for the Arris BGW210-700 home wifi router
+# You will need to install the modules imported below
+# Run with the -plot argument for a graphical plot
+# The -l argument is implemented but not portable
+# Without arguments, print stats to stdout
 
 from sys import argv
 from datetime import datetime as dd, timedelta
